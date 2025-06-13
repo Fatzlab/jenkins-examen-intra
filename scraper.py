@@ -29,4 +29,4 @@ langages = [l for l in langages if len(l) > 1 and not l.startswith("Portail")]
 df = pd.DataFrame(langages, columns=["Langage"])
 df.to_csv("data.csv", index=False, encoding="utf-8")
 
-print("Fichier 'data.csv' généré avec webhook", len(df), "langages.")
+print("Fichier 'data.csv' généré avec webhook test", len(df), "langages.")
